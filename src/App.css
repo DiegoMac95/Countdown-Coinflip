@@ -1,0 +1,93 @@
+
+.CounterApp{
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  max-width: 70%;
+  margin: 0 auto;
+
+}
+.TimerForm{
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Cointainer{
+  margin-top: 10vh;
+  max-width: 70%;
+}
+.CoinForm{
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  
+}
+.CoinForm input{
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+input[type=text]{
+  padding: 12px;
+  font-size: 12px;
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+input[type=submit]{
+  color: white;
+  padding: 12px 32px;
+  font-size: 12px;
+  background: #1372ee;
+  border: none;
+  border-radius: 3px;
+}
+input[type=submit]:hover{
+  background: #2d7feb;
+}
+input[type=submit]:active{
+  background: #0352b8;
+}
+input::-webkit-input-placeholder{
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.CounterContainer{
+  padding-top: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+.Counter{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #bebebe;
+  border-radius: 3px;
+  align-items: center;
+  margin: 12px;
+}
+.Number{
+  color: #313131;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.CounterName{
+  color:  #bebebe;
+  
+}
+.Counter p{
+  text-align: center;
+  
+}
+
